@@ -40,7 +40,7 @@ setup(
     },
     # generate scripts
     entry_points={
-        'console_scripts': ['vdt-build = vdt.recipe.version.build:build'],  # noqs
+        'console_scripts': ['vdt-build = vdt.recipe.version.build:main'],  # noqs
         'zc.buildout': ['default = vdt.recipe.version.config:CreateConfig']
     },
 
